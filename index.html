@@ -35,9 +35,6 @@
                 <a class="nav-link me-4 nav-name" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-4 nav-name" href="#menus">Menu</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link me-4" href="#events">Events</a>
               </li>
               <li class="nav-item">
@@ -51,6 +48,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link me-4" href="#faq">F&Q</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4 nav-name" href="#menus">Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link me-4" href="#contact">Contact</a>
@@ -135,241 +135,6 @@
       </div>
     </div>
     </div>
-    </section>
-    <section id="menus" class="g-0">
-      <div class="container pb-3">
-        <div class="row m-4 "  data-aos="fade-up" data-aos-duration="3000">
-      <h1 class="aboutHeading activee" data-aos="zoom-in" data-aos-duration="3000">Our Menus</h1>
-      <nav class=" navbar-light text-center">
-        <div class="container-fluid m-0 p-0">
-            <ul class=" m-auto nav-ul ull m-0 p-0 mt-5">
-              <li class="nav-item li">
-                <a class="nav-link nav-name a fw-normal" id="more" href="#menus" onclick="more()">All</a>
-              </li>
-              <li class="nav-item li">
-                <a class="nav-link nav-name a fw-normal" id="nonveg" href="#menus" onclick="nonveg()">Non-Veg</a>
-              </li>
-              <li class="nav-item li">
-                <a class="nav-link nav-name a fw-normal" href="#menus" id="veg" onclick="veg()">Veg</a>
-              </li>
-              <li class="nav-item li">
-                <a class="nav-link nav-name a fw-normal" href="#menus" id="snacks" onclick="snacks()">Snacks</a>
-              </li>
-              <li class="nav-item li">
-                <a class="nav-link  nav-name a fw-normal" href="#menus" id="juice" onclick="juice()">Juice</a>
-              </li>
-        </div>
-      </nav>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="nonveg1">
-            <div class="coll">
-              <i class="fa-regular fa-heart" id="h11" onclick="change1()"></i>
-              <i class="fa-solid fa-heart hidden" id="h12" onclick="change111()"></i>
-              <img src="images/menu1.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder fw-bolder">Briyani</h2>
-                <p class="text-center text-truncate">Spiced rice, flavorful layers.</p>
-                <strong><p class="text-center">$150.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg1">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h21" onclick="change2()"></i>
-              <i class="fa-solid fa-heart hidden" id="h22" onclick="change222()"></i>
-              <img src="images/menu2.avif" class="img-fluid"/>
-            <div class="info">
-              <h2 class="text-center fw-bolder">Pizza</h2>
-              <p class="text-center text-truncate">Cheesy, savory, baked delight.</p>
-              <strong><p class="text-center">$210.00</p></strong>
-              <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-            </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="nonveg2">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h31" onclick="change3()"></i>
-              <i class="fa-solid fa-heart hidden" id="h32" onclick="change333()"></i>
-              <img src="images/menu3.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Burger</h2>
-                <p class="text-center text-truncate">Juicy, grilled, flavorful sandwich.</p>
-                <strong><p class="text-center">$250.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="snacks1">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h41" onclick="change4()"></i>
-              <i class="fa-solid fa-heart hidden" id="h42" onclick="change444()"></i>
-              <img src="images/cake.jpg" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Cake</h2>
-                <p class="text-center text-truncate">Sweet, soft, baked dessert.</p>
-                <strong><p class="text-center">$599.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="snacks2">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h51" onclick="change5()"></i>
-              <i class="fa-solid fa-heart hidden" id="h52" onclick="change555()"></i>
-              <img src="images/menu5.jpg" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Samosa</h2>
-                <p class="text-center text-truncate">Crispy, spiced, filled pastry.</p>
-                <strong><p class="text-center">$50.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="nonveg3">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h61" onclick="change6()"></i>
-              <i class="fa-solid fa-heart hidden" id="h62" onclick="change666()"></i>
-              <img src="images/menu6.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Shawarma</h2>
-                <p class="text-center text-truncate">Tender, spiced, wrapped meat.</p>
-                <strong><p class="text-center">$200.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4  col-lg-3 mt-5" id="snacks3">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h71" onclick="change7()"></i>
-              <i class="fa-solid fa-heart hidden" id="h72" onclick="change777()"></i>
-              <img src="images/menu7.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Momos</h2>
-                <p class="text-center text-truncate">Steamed, dumpling, filled snack.</p>
-                <strong><p class="text-center">$100.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="nonveg4">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h81" onclick="change8()"></i>
-              <i class="fa-solid fa-heart hidden" id="h82" onclick="change888()"></i>
-              <img src="images/menu8.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Coastal curry</h2>
-                <p class="text-center text-truncate">Spicy, coconut-rich chicken curry.</p>
-                <strong><p class="text-center">$210.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg2">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h91" onclick="change9()"></i>
-              <i class="fa-solid fa-heart hidden" id="h92" onclick="change999()"></i>
-              <img src="images/menu9.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Veg Fried Rice</h2>
-                <p class="text-center">Stir-fried, seasoned vegetable rice.</p>
-                <strong><p class="text-center text-truncate">$150.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg3">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h01" onclick="change10()"></i>
-              <i class="fa-solid fa-heart hidden" id="h02" onclick="change000()"></i>
-              <img src="images/menu10.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Dosa</h2>
-                <p class="text-center text-truncate">Crispy, savory rice pancake.</p>
-                <strong><p class="text-center">$100.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="juice1">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h111" onclick="change11()"></i>
-              <i class="fa-solid fa-heart hidden" id="h112" onclick="change1111()"></i>
-              <img src="images/menu11.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Juice</h2>
-                <p class="text-center text-truncate">Fresh, flavorful, liquid drink.</p>
-                <strong><p class="text-center">$50.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg4">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h121" onclick="change12()"></i>
-              <i class="fa-solid fa-heart hidden" id="h122" onclick="change2222()"></i>
-              <img src="images/menu12.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Idly</h2>
-                <p class="text-center text-truncate">Steamed, soft, rice cakes.</p>
-                <strong><p class="text-center">$50.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg5">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h131" onclick="change13()"></i>
-              <i class="fa-solid fa-heart hidden" id="h132" onclick="change3333()"></i>
-              <img src="images/menu13.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Full Meals</h2>
-                <p class="text-center text-truncate">Complete, balanced, hearty dishes.</p>
-                <strong><p class="text-center">$199.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg6">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h141" onclick="change14()"></i>
-              <i class="fa-solid fa-heart hidden" id="h142" onclick="change4444()"></i>
-              <img src="images/menu14.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Naan</h2>
-                <p class="text-center text-truncate">Soft, fluffy, leavened flatbread.</p>
-                <strong><p class="text-center">$149.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg7">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h151" onclick="change15()"></i>
-              <i class="fa-solid fa-heart hidden" id="h152" onclick="change5555()"></i>
-              <img src="images/menu15.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Parotta</h2>
-                <p class="text-center text-truncate">Flaky, layered, crispy flatbread.</p>
-                <strong><p class="text-center">$99.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-lg-3 mt-5" id="juice2">
-            <div class="coll" >
-              <i class="fa-regular fa-heart" id="h161" onclick="change16()"></i>
-              <i class="fa-solid fa-heart hidden" id="h162" onclick="change6666()"></i>
-              <img src="images/menu16.avif" class="img-fluid"/>
-              <div class="info">
-                <h2 class="text-center fw-bolder">Cool Fiz</h2>
-                <p class="text-center text-truncate">Refreshing, fizzy, carbonated drink.</p>
-                <strong><p class="text-center">$49.00</p></strong>
-                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
     <section id="events" class="g-0">
       <div class="container pb-3">
@@ -939,18 +704,249 @@
             </div>
           </div>
     </section>
+    <section id="menus" class="g-0">
+      <div class="container pb-3">
+        <div class="row m-4 ">
+      <h1 class="aboutHeading activee">Our Menus</h1>
+      <nav class=" navbar-light text-center">
+        <div class="container-fluid m-0 p-0">
+            <ul class=" m-auto nav-ul ull m-0 p-0 mt-5">
+              <li class="nav-item li">
+                <a class="nav-link nav-name a fw-normal" id="more" href="#menus" onclick="more()">All</a>
+              </li>
+              <li class="nav-item li">
+                <a class="nav-link nav-name a fw-normal" id="nonveg" href="#menus" onclick="nonveg()">Non-Veg</a>
+              </li>
+              <li class="nav-item li">
+                <a class="nav-link nav-name a fw-normal" href="#menus" id="veg" onclick="veg()">Veg</a>
+              </li>
+              <li class="nav-item li">
+                <a class="nav-link nav-name a fw-normal" href="#menus" id="snacks" onclick="snacks()">Snacks</a>
+              </li>
+              <li class="nav-item li">
+                <a class="nav-link  nav-name a fw-normal" href="#menus" id="juice" onclick="juice()">Juice</a>
+              </li>
+        </div>
+      </nav>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="nonveg1">
+            <div class="coll">
+              <i class="fa-regular fa-heart" id="h11" onclick="change1()"></i>
+              <i class="fa-solid fa-heart hidden" id="h12" onclick="change111()"></i>
+              <img src="images/menu1.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder fw-bolder">Briyani</h2>
+                <p class="text-center text-truncate">Spiced rice, flavorful layers.</p>
+                <strong><p class="text-center">$150.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg1">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h21" onclick="change2()"></i>
+              <i class="fa-solid fa-heart hidden" id="h22" onclick="change222()"></i>
+              <img src="images/menu2.avif" class="img-fluid"/>
+            <div class="info">
+              <h2 class="text-center fw-bolder">Pizza</h2>
+              <p class="text-center text-truncate">Cheesy, savory, baked delight.</p>
+              <strong><p class="text-center">$210.00</p></strong>
+              <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+            </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="nonveg2">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h31" onclick="change3()"></i>
+              <i class="fa-solid fa-heart hidden" id="h32" onclick="change333()"></i>
+              <img src="images/menu3.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Burger</h2>
+                <p class="text-center text-truncate">Juicy, grilled, flavorful sandwich.</p>
+                <strong><p class="text-center">$250.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="snacks1">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h41" onclick="change4()"></i>
+              <i class="fa-solid fa-heart hidden" id="h42" onclick="change444()"></i>
+              <img src="images/cake.jpg" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Cake</h2>
+                <p class="text-center text-truncate">Sweet, soft, baked dessert.</p>
+                <strong><p class="text-center">$599.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="snacks2">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h51" onclick="change5()"></i>
+              <i class="fa-solid fa-heart hidden" id="h52" onclick="change555()"></i>
+              <img src="images/menu5.jpg" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Samosa</h2>
+                <p class="text-center text-truncate">Crispy, spiced, filled pastry.</p>
+                <strong><p class="text-center">$50.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="nonveg3">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h61" onclick="change6()"></i>
+              <i class="fa-solid fa-heart hidden" id="h62" onclick="change666()"></i>
+              <img src="images/menu6.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Shawarma</h2>
+                <p class="text-center text-truncate">Tender, spiced, wrapped meat.</p>
+                <strong><p class="text-center">$200.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  col-lg-3 mt-5" id="snacks3">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h71" onclick="change7()"></i>
+              <i class="fa-solid fa-heart hidden" id="h72" onclick="change777()"></i>
+              <img src="images/menu7.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Momos</h2>
+                <p class="text-center text-truncate">Steamed, dumpling, filled snack.</p>
+                <strong><p class="text-center">$100.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="nonveg4">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h81" onclick="change8()"></i>
+              <i class="fa-solid fa-heart hidden" id="h82" onclick="change888()"></i>
+              <img src="images/menu8.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Coastal curry</h2>
+                <p class="text-center text-truncate">Spicy, coconut-rich chicken curry.</p>
+                <strong><p class="text-center">$210.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg2">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h91" onclick="change9()"></i>
+              <i class="fa-solid fa-heart hidden" id="h92" onclick="change999()"></i>
+              <img src="images/menu9.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Veg Fried Rice</h2>
+                <p class="text-center">Stir-fried, seasoned vegetable rice.</p>
+                <strong><p class="text-center text-truncate">$150.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg3">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h01" onclick="change10()"></i>
+              <i class="fa-solid fa-heart hidden" id="h02" onclick="change000()"></i>
+              <img src="images/menu10.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Dosa</h2>
+                <p class="text-center text-truncate">Crispy, savory rice pancake.</p>
+                <strong><p class="text-center">$100.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="juice1">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h111" onclick="change11()"></i>
+              <i class="fa-solid fa-heart hidden" id="h112" onclick="change1111()"></i>
+              <img src="images/menu11.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Juice</h2>
+                <p class="text-center text-truncate">Fresh, flavorful, liquid drink.</p>
+                <strong><p class="text-center">$50.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg4">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h121" onclick="change12()"></i>
+              <i class="fa-solid fa-heart hidden" id="h122" onclick="change2222()"></i>
+              <img src="images/menu12.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Idly</h2>
+                <p class="text-center text-truncate">Steamed, soft, rice cakes.</p>
+                <strong><p class="text-center">$50.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg5">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h131" onclick="change13()"></i>
+              <i class="fa-solid fa-heart hidden" id="h132" onclick="change3333()"></i>
+              <img src="images/menu13.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Full Meals</h2>
+                <p class="text-center text-truncate">Complete, balanced, hearty dishes.</p>
+                <strong><p class="text-center">$199.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg6">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h141" onclick="change14()"></i>
+              <i class="fa-solid fa-heart hidden" id="h142" onclick="change4444()"></i>
+              <img src="images/menu14.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Naan</h2>
+                <p class="text-center text-truncate">Soft, fluffy, leavened flatbread.</p>
+                <strong><p class="text-center">$149.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="veg7">
+            <div class="coll" >
+              <i class="fa-regular fa-heart" id="h151" onclick="change15()"></i>
+              <i class="fa-solid fa-heart hidden" id="h152" onclick="change5555()"></i>
+              <img src="images/menu15.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Parotta</h2>
+                <p class="text-center text-truncate">Flaky, layered, crispy flatbread.</p>
+                <strong><p class="text-center">$99.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 mt-5" id="juice2">
+            <div class="coll">
+              <i class="fa-regular fa-heart" id="h161" onclick="change16()"></i>
+              <i class="fa-solid fa-heart hidden" id="h162" onclick="change6666()"></i>
+              <img src="images/menu16.avif" class="img-fluid"/>
+              <div class="info">
+                <h2 class="text-center fw-bolder">Cool Fiz</h2>
+                <p class="text-center text-truncate">Refreshing, fizzy, carbonated drink.</p>
+                <strong><p class="text-center">$49.00</p></strong>
+                <button type="button" class="btn btn-danger buy" onclick="buyNow()">Buy Now</button>4
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="contact" class="g-0">
       <div class="container pb-3">
         <div class="row g-5">
-          <h1 class="aboutHeading activee" data-aos="zoom-in" data-aos-duration="3000">Contact Us</h1>
-          <div class="col-sm-12 col-md-6" data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000">
+          <h1 class="aboutHeading activee">Contact Us</h1>
+          <div class="col-sm-12 col-md-6" >
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65137999.48219317!2d-70.99572750000006!3d4.820121099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cd00b7eee8e1%3A0xef498e7c63be4f89!2sRoyal%20crest%20hotel!5e0!3m2!1sen!2sin!4v1730138665538!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-6" data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"data-aos="fade-up" data-aos-duration="3000">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <form>
               <div class="mb-1">
                 <label for="exampleInputEmail1" class="form-label">Name</label>
@@ -984,7 +980,6 @@
               </div>
               <a href="">
               <button type="submit" class="btn btn-primary" onclick="Submit()">Submit</button>
-
               </a>
             </form>  
           </div>
@@ -992,14 +987,14 @@
       </div>
       <div class="container pb-3">
       <div class="row g-5">
-        <h1 class="aboutHeading activee" data-aos="fade-up-left" data-aos-duration="3000"></h1>
-        <div class="col-sm-12 col-md-5 col-lg-5" data-aos="fade-up-left" data-aos-duration="3000" id="video">
+        <h1 class="aboutHeading activee"></h1>
+        <div class="col-sm-12 col-md-5 col-lg-5" id="video">
           <video controls muted loop poster="images/thumnail.png">
             <source src="images/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>             
         </div>
-        <div class="col-sm-12 col-md-3 col-lg-3" data-aos="zoom-in" data-aos-duration="3000">
+        <div class="col-sm-12 col-md-3 col-lg-3">
           <ul class="footerul">
             <li class="footerli"><i class="fa-solid fa-location-dot"></i>Chennai</li>
             <li class="footerli"><i class="fa-regular fa-envelope"></i><a href="mailto:paviv592003@gmail.com">Royalcresthotel</a></li>
@@ -1008,7 +1003,7 @@
             <li class="footerli"><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-youtube"></i></li>
           </ul>
         </div>
-        <div class="col-sm-12 col-md-2 col-lg-2" data-aos="fade-up-right" data-aos-duration="3000">
+        <div class="col-sm-12 col-md-2 col-lg-2">
           <ul class="quicklink">
             <li>
               <a href="#">Home</a>
@@ -1024,7 +1019,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-sm-12 col-md-2 col-lg-2" data-aos="fade-up-right" data-aos-duration="3000">
+        <div class="col-sm-12 col-md-2 col-lg-2">
           <ul class="quicklink">
             <li>
               <a href="#chefs">Chefs</a>
