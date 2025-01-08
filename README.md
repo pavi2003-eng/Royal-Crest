@@ -23,7 +23,8 @@ Check out the live website: [Royal Crest Hotel](https://pavi2003-eng.github.io/R
 
 ### 🛒 Key Functionalities  
 - **Booking Table**: Users can reserve a table for dining. On submission, a toast message confirms the action.  
-- **Buy Now**: Enables users to purchase exclusive offers or packages. Clicking the "Buy Now" button triggers a toast message confirming the action.  
+- **Buy Now**: Enables users to purchase exclusive offers or packages. Clicking the "Buy Now" button triggers a toast message confirming the action.
+- **Contact Form with Validation**: The contact form includes JavaScript validation to ensure that users provide valid input (e.g., name, email, mobile number and location) before submitting the form. 
 
 ### 🖥️ Responsive Design  
 - Fully responsive across all devices, ensuring an optimal user experience on desktops, tablets and smartphones.  
