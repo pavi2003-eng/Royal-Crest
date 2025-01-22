@@ -76,6 +76,8 @@
     padding-top: 10px;
     padding-bottom: 59px;
     overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .image1{
     min-width: 350px;
@@ -120,6 +122,8 @@
     height: auto;
     padding-top: 70px;
     overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .aboutHeading{
     text-align: center;
@@ -297,6 +301,8 @@ ul.tick-list li::before {
     padding-top: 70px;
     background-color: #ce121212 ;
     position: sticky;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 #menus .activee ,#about .activee,#events .activee,#chefs .activee, #gallery .activee, #faq .activee, #contact .activee, #offer .activee
 {
@@ -391,6 +397,8 @@ ul.tick-list li::before {
     background: #ffe2e2;
     padding-top: 70px;
     overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 #events .container{
     position: sticky;
@@ -424,6 +432,8 @@ ul.tick-list li::before {
     padding-top: 70px;
     background: #ce121212;
     overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 #chefs .container{
     position: sticky;
@@ -496,11 +506,15 @@ ul.tick-list li::before {
     padding-top: 70px;
     background-color: #ce121212;
     overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 #offer{
     padding-top: 70px;
     background-color: #ffe2e2;
     overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .accordion-item{
     border: 1px solid #ce1212 !important; 
@@ -517,6 +531,8 @@ ul.tick-list li::before {
     background: #ffe2e2;
     padding-top: 70px;
     overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 #faq .container{
     position: sticky;
@@ -524,6 +540,8 @@ ul.tick-list li::before {
 #contact{
     background: #ce121212;
     padding-top: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
   overflow: hidden;
 }
 .coll .heart{
@@ -684,7 +702,8 @@ iframe{
 .scroll{
     position: fixed;
     right: 0;
-    top: 95%;
+    top: 75%;
+    z-index: 1;
     color: #ce1212;
     border: 2px solid #ce1212;
     height: 30px;
@@ -772,4 +791,7 @@ video{
     display: none;
     color: red;
     font-size: 12px;
+}
+#menus .text-center{
+    padding: 0px;
 }
