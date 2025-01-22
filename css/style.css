@@ -324,7 +324,7 @@ ul.tick-list li::before {
 }
 .li{
     display: inline;
-    padding-left: 5px;
+    padding-left: 17px;
 }
 .owl-carousel1 .center {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);  
@@ -795,7 +795,11 @@ video{
 #menus .text-center{
     padding: 0px;
 }
-#contact a{
+#form{
+    padding: 10px;
+    background-color: rgb(255 226 226);
+}
+#contact .submitbutton{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -803,4 +807,5 @@ video{
 #contact button{
     background: #ce1212;
     border: none;
+    color: white;
 }
