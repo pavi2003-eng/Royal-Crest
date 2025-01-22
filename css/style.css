@@ -816,3 +816,7 @@ video{
     line-height: 2 !important;
     padding-right: 25px;
 }
+.owl-item{
+    margin-right: 40px !important;
+    margin-bottom: 20px;
+}
