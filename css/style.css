@@ -809,3 +809,6 @@ video{
     border: none;
     color: white;
 }
+.tick-list{
+    padding-right: 25px;
+}
