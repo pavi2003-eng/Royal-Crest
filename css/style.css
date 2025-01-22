@@ -795,3 +795,12 @@ video{
 #menus .text-center{
     padding: 0px;
 }
+#contact a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact button{
+    background: #ce1212;
+    border: none;
+}
