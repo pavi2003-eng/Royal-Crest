@@ -324,7 +324,7 @@ ul.tick-list li::before {
 }
 .li{
     display: inline;
-    padding-left: 17px;
+    padding-left: 5px;
 }
 .owl-carousel1 .center {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);  
