@@ -812,3 +812,7 @@ video{
 .tick-list{
     padding-right: 25px;
 }
+.lh-lg {
+    line-height: 2 !important;
+    padding-right: 25px;
+}
